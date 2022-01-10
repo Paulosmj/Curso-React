@@ -10,12 +10,17 @@ import Primeiro from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmento';
 import NumeroAleatorio from './components/basicos/NumeroAleatorio';
+import TabelaProdutos from './components/repeticao/TabelaProdutos';
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
+      <Card titulo="#07 Desafio Repetição" color="#FF4C">
+        <TabelaProdutos></TabelaProdutos>
+      </Card>
+
       <Card titulo="#06 Repetição" color="#FF4C65">
         <ListaAlunos></ListaAlunos>
       </Card>
