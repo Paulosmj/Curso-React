@@ -12,6 +12,7 @@ import Fragmento from './components/basicos/Fragmento';
 import NumeroAleatorio from './components/basicos/NumeroAleatorio';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
+import UsuarioInfo from './components/condicional/UsuarioInfo';
 
 export default () => (
   <div className="App">
@@ -20,6 +21,7 @@ export default () => (
     <div className="Cards">
       <Card titulo="#08 Renderização Condicional" color="#982395">
         <ParOuImpar numero={21}></ParOuImpar>
+        <UsuarioInfo usuario={{ nome: 'Fernando ' }} />
       </Card>
 
       <Card titulo="#07 Desafio Repetição" color="#FF4C">
